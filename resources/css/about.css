@@ -6,3 +6,61 @@
     font-family: 'Staatliches', cursive;
     min-width: 300px;
 }
+
+/* Navbar */
+
+nav {
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#navbar li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 2vw;
+    background-color: #ffffff;
+}
+
+#navbar a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #5271FF;
+}
+
+#navbar a:hover {
+    background-color: #5271FF;
+    color: #ffffff
+}
+
+/* Navbar for Mobile devices */
+
+@media only screen and (max-width: 500px) {
+
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    #navbar li {
+        margin: 0;
+    }
+
+    #navbar a {
+        display: block;
+    }
+}
+
+/* Title box */
+
+/* Flexbox content here */
+
+/* Footer content */
