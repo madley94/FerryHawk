@@ -61,6 +61,31 @@ nav {
 
 /* Title box */
 
+#title-container {
+    padding: 2vw;
+    margin-top: 15px;
+    border-bottom: 1px solid white;
+}
+
+.title-center {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 30vw;
+    margin-top: 55px;
+    padding: 8px;
+}
+
 /* Flexbox content here */
 
+#flex-container h3 {
+    padding-left: 15px;
+}
+
 /* Footer content */
+
+footer {
+    border-top: 1px solid white;
+    position: relative;
+    padding-left: 25%;
+}
