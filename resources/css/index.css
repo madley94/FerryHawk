@@ -27,7 +27,7 @@ nav {
 #navbar li {
     list-style-type: none;
     text-decoration: none;
-    margin: 0 2vw;
+    margin: 1px 0.5vw;
     background-color: #ffffff;
 }
 
@@ -43,8 +43,9 @@ nav {
 }
 
 #navbar img {
-    height: 50px;
-    width: 50px;
+    object-fit: contain;
+    background-color: #ffffff;
+    display: block;
 }
 
 /* Navbar for Mobile devices */
@@ -86,6 +87,28 @@ nav {
 
 #flex-container h3 {
     padding-left: 15px;
+}
+
+.item-3 {
+    position: relative;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+input[type=submit] {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #5271FF
 }
 
 /* Footer content */

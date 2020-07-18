@@ -27,7 +27,7 @@ nav {
 #navbar li {
     list-style-type: none;
     text-decoration: none;
-    margin: 0 2vw;
+    margin: 1px 0.5vw;
     background-color: #ffffff;
 }
 
@@ -40,6 +40,12 @@ nav {
 #navbar a:hover {
     background-color: #5271FF;
     color: #ffffff
+}
+
+#navbar img {
+    object-fit: contain;
+    background-color: #ffffff;
+    display: block;
 }
 
 /* Navbar for Mobile devices */
